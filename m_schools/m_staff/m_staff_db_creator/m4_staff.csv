@@ -1,0 +1,93 @@
+﻿id,answered,enthusiastic_students,staff_trusted,positive_colleagues,supportive_students,respectful_staff_students,optimistic_improvement,students_help_students,colleagues_support_initiatives,positive_environment,positive_leaders,leaders_important_staff_satisfied,leaders_positive_influence,leaders_communicate_effective,leaders_knowledge,leaders_responsive,leaders_effective_rules,leaders_clear_goals,staff_input,friendly_families,meet_families,caring_families,supportive_families,trust_parents,respectful_parents,challenging_families
+m4-1,y,Not at all enthusiastic,Trusted a little bit,Extremely positive,Slightly supportive,Somewhat respectful,Quite optimistic,Once in a while,Quite supportive,Extremely positive,Somewhat positive,Slightly important,Not at all positive,Slightly effectively,Not knowledgeable at all,Somewhat responsive,Somewhat effective,Somewhat clearly,Some input,Slightly friendly,Almost never,Slightly caring,Slightly supportive,Do not trust at all,Slightly respectful,Somewhat challenging
+m4-2,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-3,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-4,y,Extremely enthusiastic,Trusted a tremendous amount,Extremely positive,Somewhat supportive,Quite respectful,Somewhat optimistic,Once in a while,Somewhat supportive,Slightly positive,Extremely positive,Extremely important,Somewhat positive,Quite effectively,Somewhat knowledgeable,Quite responsive,Extremely effective,Somewhat clearly,A little bit of input,Somewhat friendly,Almost never,Slightly caring,Not at all supportive,Trust some,Somewhat respectful,Quite challenging
+m4-5,y,Quite enthusiastic,Trusted a tremendous amount,Somewhat positive,Quite supportive,Slightly respectful,Somewhat optimistic,Frequently,Slightly supportive,Somewhat positive,Extremely positive,Extremely important,Quite positive,Somewhat effectively,Slightly knowledgeable,Slightly responsive,Slightly effective,Somewhat clearly,A little bit of input,Extremely friendly,Almost never,Quite caring,Quite supportive,Trust a tremendous amount,Quite respectful,Not at all challenging
+m4-6,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-7,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-8,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-9,y,Somewhat enthusiastic,Trusted a little bit,Not at all positive,Quite supportive,Slightly respectful,Slightly optimistic,Frequently,Slightly supportive,Somewhat positive,Slightly positive,Slightly important,Somewhat positive,Quite effectively,Somewhat knowledgeable,Slightly responsive,Slightly effective,Slightly clearly,Some input,Quite friendly,Almost all the time,Somewhat caring,Quite supportive,Trust some,Quite respectful,Not at all challenging
+m4-10,y,Not at all enthusiastic,Trusted a tremendous amount,Extremely positive,Somewhat supportive,Extremely respectful,Extremely optimistic,Frequently,Somewhat supportive,Quite positive,Quite positive,Quite important,Quite positive,Extremely effectively,Quite knowledgeable,Quite responsive,Quite effective,Quite clearly,Some input,Quite friendly,Almost never,Extremely caring,Somewhat supportive,Trust a little bit,Somewhat respectful,Slightly challenging
+m4-11,y,Quite enthusiastic,Trusted a tremendous amount,Quite positive,Somewhat supportive,Extremely respectful,Extremely optimistic,Frequently,Somewhat supportive,Quite positive,Somewhat positive,Somewhat important,Quite positive,Quite effectively,Somewhat knowledgeable,Somewhat responsive,Somewhat effective,Somewhat clearly,A little bit of input,Extremely friendly,Once in a while,Quite caring,Quite supportive,Trust a tremendous amount,Quite respectful,Slightly challenging
+m4-12,y,Somewhat enthusiastic,Trusted a little bit,Not at all positive,Quite supportive,Slightly respectful,Not at all optimistic,Almost all the time,Slightly supportive,Not at all positive,Slightly positive,Not important at all,Slightly positive,Not at all effectively,Slightly knowledgeable,Not at all responsive,Slightly effective,Slightly clearly,Almost no input,Quite friendly,Sometimes,Quite caring,Quite supportive,Trust some,Somewhat respectful,Somewhat challenging
+m4-13,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-14,y,Quite enthusiastic,Trusted a little bit,Somewhat positive,Extremely supportive,Somewhat respectful,Slightly optimistic,Almost all the time,Somewhat supportive,Somewhat positive,Somewhat positive,Somewhat important,Quite positive,Quite effectively,Extremely knowledgeable,Quite responsive,Somewhat effective,Quite clearly,A tremendous amount of input,Extremely friendly,Once in a while,Quite caring,Somewhat supportive,Trust quite a bit,Somewhat respectful,Slightly challenging
+m4-15,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-16,y,Somewhat enthusiastic,Trusted a tremendous amount,Not at all positive,Quite supportive,Somewhat respectful,Somewhat optimistic,Sometimes,Quite supportive,Extremely positive,Somewhat positive,Somewhat important,Slightly positive,Slightly effectively,Not knowledgeable at all,Somewhat responsive,Quite effective,Quite clearly,Some input,Slightly friendly,Sometimes,Not at all caring,Somewhat supportive,Trust some,Slightly respectful,Somewhat challenging
+m4-17,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-18,y,Slightly enthusiastic,Not at all trusted,Slightly positive,Somewhat supportive,Somewhat respectful,Somewhat optimistic,Once in a while,Somewhat supportive,Somewhat positive,Not at all positive,Not important at all,Slightly positive,Not at all effectively,Somewhat knowledgeable,Quite responsive,Quite effective,Quite clearly,Some input,Slightly friendly,Sometimes,Somewhat caring,Somewhat supportive,Trust quite a bit,Somewhat respectful,Quite challenging
+m4-19,y,Somewhat enthusiastic,Trusted a tremendous amount,Extremely positive,Slightly supportive,Quite respectful,Extremely optimistic,Once in a while,Somewhat supportive,Somewhat positive,Somewhat positive,Slightly important,Slightly positive,Slightly effectively,Not knowledgeable at all,Slightly responsive,Slightly effective,Slightly clearly,Almost no input,Slightly friendly,Almost never,Slightly caring,Slightly supportive,Trust some,Somewhat respectful,Slightly challenging
+m4-20,y,Not at all enthusiastic,Trusted a tremendous amount,Somewhat positive,Slightly supportive,Somewhat respectful,Slightly optimistic,Sometimes,Slightly supportive,Slightly positive,Somewhat positive,Somewhat important,Somewhat positive,Somewhat effectively,Quite knowledgeable,Somewhat responsive,Quite effective,Quite clearly,Some input,Slightly friendly,Once in a while,Not at all caring,Not at all supportive,Trust a little bit,Somewhat respectful,Somewhat challenging
+m4-21,y,Quite enthusiastic,Not at all trusted,Extremely positive,Quite supportive,Quite respectful,Somewhat optimistic,Sometimes,Slightly supportive,Slightly positive,Slightly positive,Somewhat important,Somewhat positive,Somewhat effectively,Quite knowledgeable,Quite responsive,Somewhat effective,Quite clearly,Quite a bit of input,Somewhat friendly,Almost never,Quite caring,Quite supportive,Trust some,Quite respectful,Somewhat challenging
+m4-22,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-23,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-24,y,Somewhat enthusiastic,Trusted quite a bit,Somewhat positive,Somewhat supportive,Slightly respectful,Slightly optimistic,Once in a while,Somewhat supportive,Quite positive,Quite positive,Somewhat important,Somewhat positive,Somewhat effectively,Somewhat knowledgeable,Slightly responsive,Not at all effective,Not at all clearly,Almost no input,Not at all friendly,Once in a while,Slightly caring,Somewhat supportive,Trust a little bit,Somewhat respectful,Somewhat challenging
+m4-25,y,Not at all enthusiastic,Trusted quite a bit,Not at all positive,Not at all supportive,Somewhat respectful,Slightly optimistic,Sometimes,Not at all supportive,Somewhat positive,Quite positive,Quite important,Extremely positive,Somewhat effectively,Quite knowledgeable,Quite responsive,Quite effective,Quite clearly,Some input,Somewhat friendly,Almost never,Somewhat caring,Somewhat supportive,Trust some,Somewhat respectful,Quite challenging
+m4-26,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-27,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-28,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-29,y,Extremely enthusiastic,Trusted a little bit,Quite positive,Extremely supportive,Extremely respectful,Quite optimistic,Almost all the time,Quite supportive,Somewhat positive,Slightly positive,Somewhat important,Somewhat positive,Somewhat effectively,Slightly knowledgeable,Slightly responsive,Not at all effective,Not at all clearly,Some input,Quite friendly,Sometimes,Quite caring,Somewhat supportive,Trust some,Quite respectful,Somewhat challenging
+m4-30,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-31,y,Quite enthusiastic,Trusted a little bit,Quite positive,Somewhat supportive,Quite respectful,Extremely optimistic,Frequently,Somewhat supportive,Quite positive,Not at all positive,Not important at all,Not at all positive,Not at all effectively,Not knowledgeable at all,Not at all responsive,Somewhat effective,Somewhat clearly,Quite a bit of input,Somewhat friendly,Almost never,Somewhat caring,Slightly supportive,Trust some,Slightly respectful,Extremely challenging
+m4-32,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-33,y,Quite enthusiastic,Trusted quite a bit,Slightly positive,Quite supportive,Slightly respectful,Somewhat optimistic,Almost all the time,Quite supportive,Extremely positive,Quite positive,Quite important,Somewhat positive,Quite effectively,Extremely knowledgeable,Somewhat responsive,Somewhat effective,Quite clearly,Some input,Quite friendly,Frequently,Somewhat caring,Slightly supportive,Trust some,Quite respectful,Slightly challenging
+m4-34,y,Quite enthusiastic,Trusted a tremendous amount,Not at all positive,Quite supportive,Not at all respectful,Slightly optimistic,Frequently,Not at all supportive,Somewhat positive,Extremely positive,Somewhat important,Somewhat positive,Slightly effectively,Slightly knowledgeable,Somewhat responsive,Somewhat effective,Somewhat clearly,A little bit of input,Quite friendly,Almost all the time,Somewhat caring,Quite supportive,Trust a tremendous amount,Quite respectful,Not at all challenging
+m4-35,y,Slightly enthusiastic,Not at all trusted,Quite positive,Not at all supportive,Quite respectful,Somewhat optimistic,Sometimes,Somewhat supportive,Slightly positive,Not at all positive,Somewhat important,Somewhat positive,Quite effectively,Extremely knowledgeable,Extremely responsive,Extremely effective,Somewhat clearly,A little bit of input,Slightly friendly,Almost never,Somewhat caring,Slightly supportive,Do not trust at all,Slightly respectful,Extremely challenging
+m4-36,y,Not at all enthusiastic,Trusted somewhat,Quite positive,Somewhat supportive,Somewhat respectful,Extremely optimistic,Frequently,Quite supportive,Quite positive,Slightly positive,Not important at all,Not at all positive,Somewhat effectively,Quite knowledgeable,Somewhat responsive,Somewhat effective,Somewhat clearly,Quite a bit of input,Somewhat friendly,Almost never,Slightly caring,Slightly supportive,Trust some,Quite respectful,Slightly challenging
+m4-37,y,Extremely enthusiastic,Trusted quite a bit,Slightly positive,Quite supportive,Slightly respectful,Not at all optimistic,Almost all the time,Slightly supportive,Not at all positive,Quite positive,Extremely important,Somewhat positive,Slightly effectively,Slightly knowledgeable,Slightly responsive,Somewhat effective,Slightly clearly,Some input,Extremely friendly,Almost all the time,Extremely caring,Quite supportive,Trust some,Somewhat respectful,Somewhat challenging
+m4-38,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+m4-39,y,Extremely enthusiastic,Trusted a tremendous amount,Extremely positive,Quite supportive,Somewhat respectful,Quite optimistic,Frequently,Somewhat supportive,Somewhat positive,Somewhat positive,Somewhat important,Slightly positive,Slightly effectively,Somewhat knowledgeable,Somewhat responsive,Somewhat effective,Quite clearly,Some input,Extremely friendly,Sometimes,Quite caring,Quite supportive,Trust a tremendous amount,Quite respectful,Not at all challenging
+m4-40,n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
