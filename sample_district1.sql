@@ -1,0 +1,238 @@
+select * from sample_district_scores;
+
+select 'a1_staff' as id, round(avg(positivity_score), 1) as positivity_score from sample_district_scores
+where id like 'a1-%';
+
+alter table sample_district
+add school_score float;
+
+create table sample_district (
+	school varchar,
+	staff_score float,
+	student_score float,
+	ela_proficient float,
+	math_proficient float,
+	graduation_rate float);
+	
+select * from sample_district_scores
+where id like 'a1-%';
+
+select school, round(staff_score, 1) as staff_score,
+round(student_score,1) as student_score,
+round((ela_proficient * 100),0)||'%' as ela_proficiency,
+round((math_proficient * 100),0)||'%' as math_proficiency,
+round((graduation_rate * 100),0)||'%' as graduation_rate,
+round(school_score,1) as school_score
+from sample_district;
+
+update sample_district 
+set school_score = staff_score
+where school like 'a%';
+
+update sample_district 
+set school = 'high'
+where school = 'schools_h';
+
+insert into sample_district (school,
+staff_score,
+student_score,
+ela_proficient,
+math_proficient,
+graduation_rate,
+school_score)
+values
+('district',
+(select avg(staff_score) from sample_district),
+(select avg(student_score) from sample_district),
+(select avg(ela_proficient) from sample_district),
+(select avg(math_proficient) from sample_district),
+(select avg(graduation_rate) from sample_district where school like 'h%'),
+(select avg(school_score) from sample_district));
+
+select * from sample_district;
+
+insert into sample_district (school,
+staff_score,
+student_score,
+ela_proficient,
+math_proficient,
+graduation_rate,
+school_score)
+values
+('schools_a',
+(select avg(staff_score) from sample_district where school like 'a%'),
+null,
+null,
+null,
+null,
+(select avg(school_score) from sample_district where school like 'a%')),
+('schools_e',
+(select avg(staff_score) from sample_district where school like 'e%'),
+(select avg(student_score) from sample_district where school like 'e%'),
+(select avg(ela_proficient) from sample_district where school like 'e%'),
+(select avg(math_proficient) from sample_district where school like 'e%'),
+'n/a',
+(select avg(school_score) from sample_district where school like 'e%')),
+('schools_h',
+(select avg(staff_score) from sample_district where school like 'h%'),
+(select avg(student_score) from sample_district where school like 'h%'),
+(select avg(ela_proficient) from sample_district where school like 'h%'),
+(select avg(math_proficient) from sample_district where school like 'h%'),
+(select avg(graduation_rate) from sample_district where school like 'h%'),
+(select avg(school_score) from sample_district where school like 'h%')),
+('schools_m',
+(select avg(staff_score) from sample_district where school like 'm%'),
+(select avg(student_score) from sample_district where school like 'm%'),
+(select avg(ela_proficient) from sample_district where school like 'm%'),
+(select avg(math_proficient) from sample_district where school like 'm%'),
+'n/a',
+(select avg(school_score) from sample_district where school like 'm%'));
+
+update sample_district
+set staff_score = (select avg(staff_score) from sample_district where school like 'e%')
+where school = 'schools_e';
+
+insert into sample_district (school,
+staff_score,
+student_score,
+ela_proficient,
+math_proficient,
+graduation_rate,
+school_score)
+values 
+('a1', 
+(select avg(positivity_score) from sample_district_scores where id like 'a1-%'), 
+null, null, null, 'n/a',null), 
+('a2',
+(select avg(positivity_score) from sample_district_scores where id like 'a2-%'),
+null, null, null, 'n/a',null),
+('a3', 
+(select avg(positivity_score) from sample_district_scores where id like 'a3-%'),
+null, null, null, 'n/a',null), 
+('a4',
+(select avg(positivity_score) from sample_district_scores where id like 'a4-%'),
+null, null, null, null,null),
+('e1',
+(select avg(positivity_score) from sample_district_scores where id like 'e1-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e1-%'),
+.19,.13,'n/a',null),
+('e2',
+(select avg(positivity_score) from sample_district_scores where id like 'e2-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e2-%'),
+.09,.06,'n/a',null),
+('e3',
+(select avg(positivity_score) from sample_district_scores where id like 'e3-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e3-%'),
+.01,.01,'n/a',null),
+('e4',
+(select avg(positivity_score) from sample_district_scores where id like 'e4-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e4-%'),
+.08,.02,'n/a',null),
+('e5',
+(select avg(positivity_score) from sample_district_scores where id like 'e5-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e5-%'),
+.12,.16,'n/a',null),
+('e6',
+(select avg(positivity_score) from sample_district_scores where id like 'e6-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e6-%'),
+.07,.05,'n/a',null),
+('e7',
+(select avg(positivity_score) from sample_district_scores where id like 'e7-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e7-%'),
+.05,.05,'n/a',null),
+('e8',
+(select avg(positivity_score) from sample_district_scores where id like 'e8-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e8-%'),
+.25,.25,'n/a',null),
+('e9',
+(select avg(positivity_score) from sample_district_scores where id like 'e9-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e9-%'),
+.17,.13,'n/a',null),
+('e10',
+(select avg(positivity_score) from sample_district_scores where id like 'e10-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e10-%'),
+.02,0,'n/a',null),
+('e11',
+(select avg(positivity_score) from sample_district_scores where id like 'e11-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e11-%'),
+.02,.01,'n/a',null),
+('e12',
+(select avg(positivity_score) from sample_district_scores where id like 'e12-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e12-%'),
+.13,.12,'n/a',null),
+('e13',
+(select avg(positivity_score) from sample_district_scores where id like 'e13-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-e13-%'),
+.13,.09,'n/a',null),
+('h1',
+(select avg(positivity_score) from sample_district_scores where id like 'h1-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-h1-%'),
+.37,.22,.8,null),
+('h2',
+(select avg(positivity_score) from sample_district_scores where id like 'h2-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-h2-%'),
+.26,.19,.69,null),
+('h3',
+(select avg(positivity_score) from sample_district_scores where id like 'h3-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-h3-%'),
+.8,.3,.83,null),
+('h4',
+(select avg(positivity_score) from sample_district_scores where id like 'h4-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-h4-%'),
+.36,.38,.65,null),
+('h5',
+(select avg(positivity_score) from sample_district_scores where id like 'h5-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-h5-%'),
+.43,.07,.7,null),
+('m1',
+(select avg(positivity_score) from sample_district_scores where id like 'm1-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m1-%'),
+.06,.01,'n/a',null),
+('m2',
+(select avg(positivity_score) from sample_district_scores where id like 'm2-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m2-%'),
+.17,.03,'n/a',null),
+('m3',
+(select avg(positivity_score) from sample_district_scores where id like 'm3-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m3-%'),
+.27,.19,'n/a',null),
+('m4',
+(select avg(positivity_score) from sample_district_scores where id like 'm4-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m4-%'),
+.4,.27,'n/a',null),
+('m5',
+(select avg(positivity_score) from sample_district_scores where id like 'm5-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m5-%'),
+.15,.06,'n/a',null),
+('m6',
+(select avg(positivity_score) from sample_district_scores where id like 'm6-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m6-%'),
+.24,.11,'n/a',null),
+('m7',
+(select avg(positivity_score) from sample_district_scores where id like 'm7-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m7-%'),
+.23,.18,'n/a',null),
+('m8',
+(select avg(positivity_score) from sample_district_scores where id like 'm8-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m8-%'),
+.2,.07,'n/a',null),
+('m9',
+(select avg(positivity_score) from sample_district_scores where id like 'm9-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m9-%'),
+.16,.08,'n/a',null),
+('m10',
+(select avg(positivity_score) from sample_district_scores where id like 'm10-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m10-%'),
+.13,.12,'n/a',null),
+('m11',
+(select avg(positivity_score) from sample_district_scores where id like 'm11-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m11-%'),
+.54,.37,'n/a',null),
+('m12',
+(select avg(positivity_score) from sample_district_scores where id like 'm12-%'),
+(select avg(positivity_score) from sample_district_scores where id like 'stu-m12-%'),
+.08,.03,'n/a',null);
+
+update sample_district 
+set student_score = 'n/a'
+where school = 'a1';
